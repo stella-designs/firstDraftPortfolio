@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website Artist</title>
+    
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!--Style Sheets-->
+    <link href="remixicon/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheet.css">
+    <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Tab icon -->
+    <link rel="icon" href="img/waLogo.png">
+</head>
+
+<body class="homeback">
+    <div class="container">
+        <!--Nav Bar-->
+        <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+            <!-- logo -->
+            <nav class="navbar navbar-light">
+                <a class="navbar-brand" href="index.html">
+                    <img src="img/mwaLogo.png" alt="My Website Artist Logo" style="height: 50px; ">
+                </a>
+            </nav>
+            <!-- buttons -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ml-auto float-right">
+                    <li class="nav-item active btn btn-outline-light mr-2">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item btn btn-outline-light mr-2">
+                        <a class="nav-link" href="#About">About</a>
+                    </li>
+                    <li class="nav-item btn btn-outline-light mr-2">
+                        <a class="nav-link" href="#Resume" tabindex="-1" aria-disabled="true">Resume</a>
+                    </li>
+                    <!-- Contact Form Placeholder -->
+                    <li class="nav-item btn btn-outline-light mr-2">
+                        <a class="nav-link" href="#" tabindex="-1" aria-disabled="true" onclick="myFunction()">Contact</a>
+                    </li>
+
+                    <!-- Dropdown -->
+                    <li class="nav-item dropdown btn btn-outline-light">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Portfolio
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right btn btn-outline-light float-right"
+                            aria-labelledby="navbarDropdownMenuLink" style="width: fit-content;">
+                            <a class="dropdown-item" href="#Portfolio">All</a>
+                            <a class="dropdown-item" href="http://www.angrypizza.org" target="_blank">Angry Pizza</a>
+                            <a class="dropdown-item" href="craftespresso.html">Craft Espresso</a>
+                            <a class="dropdown-item" href="roarbikes.html">Roar Bikes</a>
+                            <a class="dropdown-item" href="maynooth.html">Maynooth Furniture</a>
+                            <a class="dropdown-item" href="design.html">Design, Ps &amp Ai</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!--Hero Box-->
+        <div class="herobox">
+            <img src="img/hp/hpScreens.png" alt="Computer, laptop, ipad and iphone displaying mockup deign">
+        </div>
+
+        <!--  OVERVIEW SECTION    -->
+
+        <section id="overview" class="parallax-section">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-7 col-md-11 col-sm-10">
+                        <img src="img/hp/leafCreate.jpg" class="img-responsive" alt="Word Create intertwined in leaves">
+                        <blockquote>Ui/Ux Designer using Adobe Suite, HTML, CSS, and Bootstrap to design and build
+                            personalized websites.</blockquote>
+                    </div>
+
+                    <div class="col-md-1"></div>
+
+                    <div class="col-lg-4 col-md-11 col-sm-12">
+                        <div class="overview-detail">
+                            <h2>Introduction</h2>
+                            <p>Creating custom design utilizing Adobe Photoshop, Xd, Illustrator, Comp, and Figma. Building basic to interactive websites using HTML5, CSS3, JavaScript, and Bootstrap.</p>
+                            <p>Currently designing websites, logos, and helping small businesses build their web presence.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-1"></div>
+
+                </div>
+            </div>
+        </section>
+        
+        <!-- ======= About Section ======= -->
+        <section id="about" class="about">
+
+            <!-- ======= About Me ======= -->
+            <section id="aboutImg" class="parallax-section">
+                <div class="about-me container">
+                    <div class="section-title">
+                        <h2 id="About">About</h2>
+                        <p>Learn more about me</p>
+                    </div>
+                   
+
+                    <div class="row">
+                       
+                        <div class="col-lg-6 col-md-12 col-sm-12">
+                         
+                            <img src="img/hp/firename.jpg" class="img-responsive" alt="name stella burning charcoal image as letters">
+                            
+                        </div>
+
+                        <div class="col-lg-6 col-md-6 col-sm-12 pt-4 pt-lg-0 content" data-aos="fade-left">
+                            <h3>UI/UX Web Designer</h3>
+                            <p class="font-italic">
+                                Stella is a freelance web designer and front end developer. 
+                            </p>
+                            <p>Objective: Defining target and goals, and creating a custom client persona for the target market.</p>
+                            <p>Research: Researching comparable website layout, usability, and analytics.</p>
+                            <p>Mockup: Creating simple mockups to find the best layout.</p>
+                            <p>Design: Building a custom design and interactive prototype with Adobe Xd.</p>
+                            <p>Test: User testing and updating.</p>
+                            <p>Build: Developing Front End Website.</p>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End About Me -->
+
+        <!--Main-->
+
+        <!-- ======= Portfolio Section ======= -->
+        <section id="portfolio" class="portfolio">
+            <div class="container">
+
+                <div class="section-title">
+                    <h2 id="Portfolio">Portfolio</h2>
+                    <p><em>Click to View Full Design</em></p>
+                </div>
+
+                <div class="row portfolio-container">
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                        <div class="portfolio-wrap">
+                            <a href="http://www.angrypizza.org" target="_blank">
+                                <img src="img/hp/angrypizza.jpg" class="img-fluid"
+                                    alt="Angry Pizza Website Screenshot or menu">
+                                <div class="portfolio-info">
+                                    <h4>Angry Pizza</h4>
+                                    <p>Website Template Redesign</p>
+
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                        <div class="portfolio-wrap">
+                            <a href="craftespresso.html">
+                                <img src="img/hp/craftEspHomePg.jpg" class="img-fluid" alt="craft espresso home page design">
+                                <div class="portfolio-info">
+                                    <h4>Craft Espresso</h4>
+                                    <p>Xd Design</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                        <div class="portfolio-wrap">
+                            <a href="roarbikes.html">
+                                <img src="img/hp/rbHome.jpg" class="img-fluid" alt="Roar Bike Website Mockup">
+                                <div class="portfolio-info">
+                                    <h4>Roar Bikes</h4>
+                                    <p>Xd Design</p>
+
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                        <div class="portfolio-wrap">
+                            <a href="https://xd.adobe.com/view/ec214ffd-3682-4f2c-b77d-623f2d445ed2-b972/?fullscreen" target="_blank">
+                                <img src="img/hp/VannonHomePage.jpg" class="img-fluid" alt="Dans portfolio website">
+                                <div class="portfolio-info">
+                                    <h4>Vannon Re-Design Homepage <br> 24hr Challenge </h4>
+                                    <p>Adobe Xd & Photoshop</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                        <div class="portfolio-wrap">
+                            <a href="maynooth.html">
+                                <img src="img/hp/maynooth.jpg" class="img-fluid"
+                                    alt="Maynooth Furniture Website Mockup">
+                                <div class="portfolio-info">
+                                    <h4>Maynooth Furniture</h4>
+                                    <p>Xd Design</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+                        <div class="portfolio-wrap">
+                            <a href="https://github.com/websiteartist/dansyogurt" target="_blank">
+                                <img src="img/hp/dansYogurt.jpg" class="img-fluid"
+                                    alt="Dans Yogurt Website screen shot">
+                                <div class="portfolio-info">
+                                    <h4>Dans Yogurt</h4>
+                                    <p>HTML, CSS and Bootstrap</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                        <div class="portfolio-wrap">
+                            <a href="design.html">
+                                <img src="img/hp/fireincup.jpg" class="img-fluid" alt="Woman holding cup of coffee fire image inside the cup">
+                                <div class="portfolio-info">
+                                    <h4>Photo Editing</h4>
+                                    <p>Photoshop</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+                        <div class="portfolio-wrap">
+                            <a href="design.html">
+                                <img src="img/hp/DoubleExposure=A.jpg" class="img-fluid" alt="Super smoothies add, with berries and banana">
+                                <div class="portfolio-info">
+                                    <h4>Double Exposure</h4>
+                                    <p>Photoshop</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+                        <div class="portfolio-wrap">
+                            <a href="design.html">
+                                <img src="img/hp/illustratorLogo.jpg" class="img-fluid" alt="scott shoes add, woman doing sit ups">
+                                <div class="portfolio-info">
+                                    <h4>Logo Designing</h4>
+                                    <p>Illustrator</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section><!-- End Portfolio Section -->
+
+
+
+            <!-- ======= Skills  ======= -->
+            <div class="skills container">
+
+                <div class="section-title">
+                    <h2>Skills</h2>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-3 col-md-4">
+                        <div class="icon-box">
+                            <i class="ri-camera-fill" style="color: #82085f;"></i>
+                            <h3>Photoshop</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+                        <div class="icon-box">
+                            <i class="ri-layout-masonry-line" style="color: #091959;"></i>
+                            <h3>XD</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+                        <div class="icon-box">
+                            <i class="ri-pen-nib-fill" style="color: #540829;"></i>
+                            <h3>Illustrator</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 mt-4 mt-lg-0">
+                        <div class="icon-box">
+                            <i class="ri-vip-diamond-fill" style="color: #c2b413;"></i>
+                            <h3>Sketch</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 mt-4">
+                        <div class="icon-box">
+                            <i class="ri-edit-fill" style="color: #092c46;"></i>
+                            <h3>Figma</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 mt-4">
+                        <div class="icon-box">
+                            <i class="ri-html5-fill" style="color: #05430a;"></i>
+                            <h3>HTML5, CSS3 &amp Bootstrap</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 mt-4">
+                        <div class="icon-box">
+                            <i class="ri-terminal-window-line" style="color: #033f3b;"></i>
+                            <h3>JavaScript</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 mt-4">
+                        <div class="icon-box">
+                            <i class="ri-artboard-fill" style="color: #033e0c;"></i>
+                            <h3>Wireframes &amp Mockups</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 mt-4">
+                        <div class="icon-box">
+                            <i class="ri-file-upload-fill" style="color: #023229;"></i>
+                            <h3>Zeplin</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 mt-4">
+                        <div class="icon-box">
+                            <i class="ri-device-line" style="color: #b20969;"></i>
+                            <h3>Responsive Designs</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 mt-4">
+                        <div class="icon-box">
+                            <i class="ri-macbook-line" style="color: #3c1004;"></i>
+                            <h3>Windows & Mac O.S.</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 mt-4">
+                        <div class="icon-box">
+                            <i class="ri-code-box-fill" style="color: #04153c;"></i>
+                            <h3>Visual Studio Code</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Skills -->
+
+            <!-- ======= Interests ======= -->
+            <div class="interests container">
+
+                <div class="section-title">
+                    <h2>Personal Interests</h2>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-3 col-md-4 mt-4 ">
+                        <div class="icon-box">
+                            <i class="ri-palette-fill" style="color: #520426;"></i>
+                            <h3>Oil Painting</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 mt-4 ">
+                        <div class="icon-box">
+                            <i class="ri-pencil-fill" style="color: #430451;"></i>
+                            <h3>Sketching</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 mt-4 ">
+                        <div class="icon-box">
+                            <i class="ri-quill-pen-line" style="color: #4f0311;"></i>
+                            <h3>Design</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 mt-4">
+                        <div class="icon-box">
+                            <i class="ri-camera-line" style="color: #051145;"></i>
+                            <h3>Photography</h3>
+                        </div>
+                    </div>
+                </div>
+
+            </div><!-- End Interests -->
+
+        </section>
+        <!-- End About Section -->
+
+        <!-- ======= Resume Section ======= -->
+        <section id="resume" class="resume">
+            <div class="container">
+
+                <div class="section-title">
+                    <h2 id="Resume">Resume</h2>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h3 class="resume-title">Summary</h3>
+                        <div class="resume-item pb-0">
+                            <h4>Stella Chaves</h4>
+                            <p><em>Innovative and deadline-driven UI/UX Designer 
+                                    developing user-centered digital marketing material from initial concept to final,
+                                    polished deliverable.</em></p>
+                            
+                                <li>Prior Lake, MN </li>
+                                <li>MyWebsiteArtist.com</li>
+                            
+                            
+                        </div>
+
+                        <h3 class="resume-title">Education &amp Training</h3>
+                        <div class="resume-item">
+                            <h4>Adobe Courses</h4>
+                            <h5>2019 - 2020</h5>
+                            <p>
+                                <em>Adobe Certifed Instructor Danial Scott</em> <br>
+                                <a href="https://www.bringyourownlaptop.com">Bring Your Own Laptop</a>
+                            </p>
+                            
+                            <p>Responsive Web Design Essentials - HTML5 CSS3 Bootstrap</p>
+                            <p>Completed courses in Adobe Photoshop, Xd, and Illustrator.</p>
+                           
+                            <li>Adobe Photoshop Essentials &amp Advanced</li>
+                            <li>Adobe Illustrator Essentials &amp Advanced</li>
+                            <li>Ui &amp Web Design with Illustrator</li>
+                            <li>Ui/Ux Design With Xd</li>
+                            <li>Website Design in Photoshop</li>
+                       
+                        </div>
+
+                        <div class="resume-item">
+                            <h4>Intro to Programming & Front End Development</h4>
+                            <h5>2018 - 2019</h5>
+                            <p><em>Udacity</em></p>
+                            <p>Introduction to Programming </p>
+                            
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                            <li>Python</li>
+                            <li>JavaScript</li>
+                        
+                            <br>
+                            <p>Front End Development</p>
+                            
+                            <li>CSS & Website Layout</li>
+                            <li>JavaScript and the DOM</li>
+                            <li>Web APIs and Asynchronous Applications</li>
+                      
+                        </div>
+                        <div class="resume-item">
+                            <h4>Liberal Arts</h4>
+                            <h5>2007 - 2009</h5>
+                            <p><em>Normandale Community College</em></p>
+                            <p>Academic subjects such as literature, philosophy, mathematics, and social and physical
+                                sciences as distinct from professional and technical subjects.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <h3 class="resume-title">Professional Experience</h3>
+                        <div class="resume-item">
+                            <h4>Ui/Ux Web Designer & Front End Developer</h4>
+                            <h5>2019 - Present</h5>
+                            <p><em>Remote, Freelancer</em></p>
+                          
+                         
+                                <li>Building websites for small businesses</li>
+                                <li>Photo editing using Adobe Ps</li>
+                                <li>Web Design with Xd</li>
+                                <li>Logo Creations using Adobe Ai</li>
+                                <li>Adobe Comp Wireframes</li>
+                                <li>Objective, Research, Mockup, Test, Build</li>
+                        
+                           
+                        </div>
+                        <div class="resume-item">
+                            <h4>TEFL Tutor</h4>
+                            <h5>2019 - Present</h5>
+                            <p><em>Cambly &amp P.O.F.</em></p>
+                        
+                                <li>Teaching English as a foreign language</li>
+                                <li>One on one classes with adults and children</li>
+                                <li>Online/Remote Work</li>
+                          
+                        </div>
+                        <div class="resume-item">
+                            <h4>Owner</h4>
+                            <h5>2010 - Present</h5>
+                            <p><em>Chaves Enterprises, LLC</em></p>
+                        
+                                <li>Owned and operated an independent cleaning company</li>
+                                <li>Marketing, networking, and client relations</li>
+                                <li>Bookkeeping</li>
+                                <li>Built company website with HTML, CSS, and Bootstrap</li>
+                         
+                        </div>
+                        <div class="resume-item">
+                            <h4>Artist</h4>
+                            <h5>2015 - Present</h5>
+                            <p><em>Painter</em></p>
+                       
+                                <li><a href="https://www.behance.net/gallery/104532299/Oil-Paintings" target="_blank">Oil Paintings on Canvas</a> </li>
+                                <li>St. Paul Art Crawl</li>
+                                <li>Marketing, Networking, and Sales</li>
+                                <li>Framing</li>
+                                <li><a href="https://www.behance.net/gallery/104534193/Mural" target="_blank"> Mural Painting</a></li>
+                      
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section><!-- End Resume Section -->
+        <!-- Social Media Links -->
+        <section id="socialmedia" class="parallax-section">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-md-3 col-sm-6 col-6">
+                        <a href="https://www.behance.net/stellachaves" target="_blank">
+                            <img src="img/hp/behance.svg" class="img-responsive" alt="Behance logo">
+                        </a>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-6">
+                        <a href="https://dribbble.com/MyWebsiteArtist" target="_blank">
+                            <img src="img/hp/dribbble.svg" class="img-responsive" alt="Dribble logo">
+                        </a>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-6">
+                        <a href="https://github.com/websiteartist?tab=repositories" target="_blank">
+                            <img src="img/hp/github.svg" class="img-responsive" alt="Github logo">
+                        </a>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-6">
+                        <a href="https://stella393067.invisionapp.com/board/Class-Projects-cka5nbep303c718x0lbjyzoe6" target="_blank">
+                            <img src="img/hp/invision.svg" class="img-responsive" alt="InVision logo">
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </div>
+    <!--Footer-->
+    <footer>
+    </footer>
+
+
+    <!--JavaScript-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
